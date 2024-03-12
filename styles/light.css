@@ -24,5 +24,36 @@
   display: none;
 }
 
+@media (prefers-color-scheme: light) {
+
+  .page {
+    background-image: url(../images/cover-image-light.png);
+    background-color: #fff1f7;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    --accent-color: #FF8DCB;
+    --color-title: #FFC2E6;
+    --color-paragraph: #353430;
+    --gray-color-element: #353430;
+  }
+
+  .decoration_element_REC {
+      display: none;
+  }
+
+  .decoration_element {
+      color: #353430;
+  }
+
+  .decorated-zone::before {
+      border-color: #353430;
+  }
+
+  .decorated-zone::after {
+      border-color: #353430;
+  }
+}
+
 
 
