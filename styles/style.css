@@ -2,6 +2,7 @@
 
 .page {
   background-image: url(../images/cover-image-dark.png);
+  background-color: #000028;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
