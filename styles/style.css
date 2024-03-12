@@ -45,7 +45,6 @@
 .decoration_element_REC {
   color: var(--accent-color);
   position: absolute;
-  right: 10%;
   top: 0.5em;
   right: 2.15em;
 }
@@ -94,7 +93,6 @@
 .header__theme-menu-button_active {
   border: 1px solid var(--gray-color-element);
   pointer-events: none;
-  
 }
 
 .title-header {
@@ -210,34 +208,35 @@
 
 
 @media (prefers-color-scheme: light) {
+
   :root {
     --accent-color: #FF8DCB;
     --color-title: #FFC2E6;
     --color-paragraph: #353430; 
   }
 
-    .page {
+  .page {
       background-image: url(/images/cover-image-light.png);
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
-    }
+  }
 
-    .decoration_element_REC {
+  .decoration_element_REC {
       display: none;
-    }
+  }
 
-    .decoration_element {
+  .decoration_element {
       color: #353430;
-    }
+  }
 
-    .decorated-zone::before  {
+  .decorated-zone::before  {
       border-color: #353430;
-    }
+  }
 
-    .decorated-zone::after {
+  .decorated-zone::after {
       border-color: #353430;
-    }
+  }
 }
 
 @media (width >= 767px) {
