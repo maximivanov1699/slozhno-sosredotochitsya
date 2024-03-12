@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-light.png);
+  background-color: #fff1f7;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
