@@ -18,10 +18,23 @@
   --color-title: #FFC2E6;
   --color-paragraph: #353430;
   --gray-color-element: #353430;
+  --border-hover: rgba(50, 49, 45, 0.4);
 }
 
 .page.theme_light .decoration_element_REC {
   display: none;
+}
+
+.page.theme_light .decoration_element {
+  color: #353430;
+}
+
+.page.theme_light .decorated-zone::before {
+  border-color: #353430;
+}
+
+.page.theme_light .decorated-zone::after {
+  border-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,6 +49,7 @@
     --color-title: #FFC2E6;
     --color-paragraph: #353430;
     --gray-color-element: #353430;
+    --border-hover: rgba(50, 49, 45, 0.4);
   }
 
   .decoration_element_REC {

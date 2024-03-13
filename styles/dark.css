@@ -18,5 +18,53 @@
   --color-title: #DB00FF;
   --color-paragraph: #F1B2CE;
   --gray-color-element: #ff0070;
+  --border-hover: rgba(255, 0, 112, 0.4);
 }
 
+.page.theme_dark .decoration_element_REC {
+  display: block;
+}
+
+.page.theme_dark .decoration_element {
+  color: #ff0070;
+}
+
+.page.theme_dark .decorated-zone::before {
+  border-color: #ff0070;
+}
+
+.page.theme_dark .decorated-zone::after {
+  border-color: #ff0070;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .page {
+    background-image: url(../images/cover-image-dark.png);
+    background-color: #000028;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    --accent-color: #ff0070;
+    --color-title: #DB00FF;
+    --color-paragraph: #F1B2CE;
+    --gray-color-element: #ff0070;
+    --border-hover: rgba(255, 0, 112, 0.4);
+  }
+
+  .decoration_element_REC {
+      display: block;
+  }
+
+  .decoration_element {
+      color: #ff0070;
+  }
+
+  .decorated-zone::before {
+      border-color: #ff0070;
+  }
+
+  .decorated-zone::after {
+      border-color: #ff0070;
+  }
+}
